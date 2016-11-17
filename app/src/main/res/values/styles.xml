@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SimpleBigRedText">
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="SimpleBigRedText.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="SimpleBigRedText.Italic.Caps">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="SimpleBigBlueText">
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <!--also works with parent attribute-->
+    <style name="SimpleMediumBlueText" parent="SimpleBigBlueText">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="SimpleMediumBlueBoldText" parent="SimpleMediumBlueText">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SimpleGreenInputText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">#008000</item>
+    </style>
+
+    <style name="SimpleItalicInputText" parent="Widget.AppCompat.EditText">
+        <item name="android:textStyle">italic</item>
+    </style>
+    
+    <style name="SimpleRightInputText" parent="Widget.AppCompat.EditText">
+        <item name="android:gravity">right</item>
+    </style>
+
+</resources>

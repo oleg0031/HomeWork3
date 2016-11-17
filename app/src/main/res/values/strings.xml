@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HomeWork3</string>
+    <string name="activity1_menu">Activity1</string>
+    <string name="activity2_menu">Activity2</string>
+    <string name="activity3_menu">Activity3</string>
+    <string name="text1">Text1</string>
+    <string name="text2">Text2</string>
+    <string name="text3">Text3</string>
+    <string name="text4">Text4</string>
+    <string name="text5">Text5</string>
+    <string name="text6">Text6</string>
+    <string name="button3">Button 3</string>
+    <string name="button2">Button 2</string>
+    <string name="button1">Button 1</string>
+    <string name="button4">Button 4</string>
+    <string name="edittext2">EditText2</string>
+    <string name="edittext1">EditText1</string>
+    <string name="edittext3">EditText3</string>
+</resources>
